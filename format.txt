@@ -1,0 +1,7 @@
+{
+"url": "%{url_effective}",
+"status": %{http_code},
+"time-connect": %{time_connect},
+"time-starttransfer": %{time_starttransfer},
+"speed-download": %{speed_download}
+}
