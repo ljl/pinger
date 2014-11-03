@@ -1,0 +1,16 @@
+<html ng-app="searchApp">
+<head>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/controllers.js"></script>
+</head>
+<body>
+<div ng-controller="IndicesCtrl">
+    <h2>My search indices</h2>
+    <ul>
+        <li ng-repeat="index in indices">{{index.name}}</li>
+    </ul>
+</div>
+
+</body>
+</html>
